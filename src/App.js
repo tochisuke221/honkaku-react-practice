@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Form from "./components/Form"; 
+import LazyBasic from "./components/LazyBasic";
+import ProfilerBasic from "./components/ProfilerBasic";
+import PortalBasic from "./components/PortalBasic"
 
-function App() {
+const App = () => {
+  // return <Form />
+  // return <ProfilerBasic />
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div id="dialog"></div>
+      <PortalBasic />
+    </>
+  )
+  // return <LazyBasic />
+
 }
 
-export default App;
+export default App
