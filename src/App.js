@@ -4,6 +4,7 @@ import ProfilerBasic from "./components/ProfilerBasic";
 import PortalBasic from "./components/PortalBasic"
 import MaterialButton from "./components/MaterialButton";
 import MaterialDrawer from './components/MaterialDrawer'
+import MaterialGrid from './components/MaterialGrid'
 
 const App = () => {
   // return <Form />
@@ -15,7 +16,8 @@ const App = () => {
   //   </>
   // )
   // return <LazyBasic />
-  return <MaterialDrawer />
+  // return <MaterialDrawer />
+  return <MaterialGrid />
 }
 
 export default App
