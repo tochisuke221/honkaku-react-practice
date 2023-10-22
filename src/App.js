@@ -5,6 +5,7 @@ import PortalBasic from "./components/PortalBasic"
 import MaterialButton from "./components/MaterialButton";
 import MaterialDrawer from './components/MaterialDrawer'
 import MaterialGrid from './components/MaterialGrid'
+import MaterialMode from './components/MaterialMode'
 
 const App = () => {
   // return <Form />
@@ -17,7 +18,8 @@ const App = () => {
   // )
   // return <LazyBasic />
   // return <MaterialDrawer />
-  return <MaterialGrid />
+  // return <Mate÷rialGrid />
+  return <MaterialMode />
 }
 
 export default App
